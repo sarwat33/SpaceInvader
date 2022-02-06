@@ -90,7 +90,7 @@ def DetectCollision(enemyX,enemyY,bulletX,bulletY):
         return False
 #  rendering the score to the screen, incase of font it has to be rendered first then blit on the screen    
 def ShowScore(x,y,scoreValue):
-    SCORE = FONT.render("Score: ", str(scoreValue), True, (255,255,255))
+    SCORE = FONT.render("Score: " + str(scoreValue), True, (255,255,255))
     screen.blit(SCORE,(x,y))
     
 def GameOver(enemyY):
