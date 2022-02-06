@@ -23,4 +23,4 @@ pygame.init()
 ### Classic SpaceInvaderGame where the main goal is to defeat the respawning enemies using bullets  
 <hr>
 
-![ScreenShot](./images/screenshot.png)
+![ScreenShot](./SpaceInvaderGame/images/screenshot.png)
