@@ -1,7 +1,7 @@
 ## SpaceInvaderGame<hr> 
 
 #### Pygame Mini Project <hr>
-
+##### Install the pygame module in your machine
 `pip install pygame`
 <br>
 
@@ -10,7 +10,7 @@
 # importing necessary packages 
 import pygame
 import time
-import pygame.mixer
+from pygame import mixer
 import math
 
 #initialize the window using pygame.init()
